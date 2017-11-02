@@ -1,0 +1,22 @@
+{
+    "name":"staticbase",
+    "version":"1.0.0",
+    "description":"-",
+    "main":"index.js",
+    "scripts":{
+        "test":"test"
+    },
+    "devDependencies":{
+        "node-sass":"4.5.0"
+    },
+    "dependencies":{
+        "zss":"2.0.0"
+    },
+    "repository":{
+        "type":"git",
+        "url":"-"
+    },
+    "author":"Jurg",
+    "license":"ISC"
+}
+
