@@ -1,7 +1,8 @@
+
 ---
 layout: default
-title: Home
+title: Index
 date: 2017-10-25 20:24:00 Z
 ---
 
-Home
+Index
