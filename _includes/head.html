@@ -1,0 +1,25 @@
+<title>{{ title }}</title>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
+
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/Hamburger/jquery.hamburger.js"></script>
+
+
+<script>
+    'use strict';
+    var html = document.getElementsByTagName('html')[0];
+    html.className = html.className.replace('no-js', '');
+</script>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        'use strict';
+        $('#main-menu').hamburger();
+    });
+</script>
+
+</head>

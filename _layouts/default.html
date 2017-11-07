@@ -1,22 +1,25 @@
 <!doctype html>
 <html class="s-no-js  not-loaded" lang="nl" xml:lang="nl">
-<title>{{ title }}</title>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen">
+{% include head.html %}
 
-<script>
-    'use strict';
-    var html = document.getElementsByTagName('html')[0];
-    html.className = html.className.replace('no-js', '');
-</script>
+<body class="u-bg--blue--pale-turqoise  u-blue--bunting">
 
-</head>
-<body class="">
+{% include header.html %}
 
-{{ content }}
+<main class="page-content  u-bg--white" aria-label="Content">
+    <div class="o-grid  o-grid--fixed">
+        <div class="o-grid__row">
+            <div class="o-grid__col  o-grid__col--12@xs">
+
+                {{ content }}
+
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}
 
 </body>
 </html>
