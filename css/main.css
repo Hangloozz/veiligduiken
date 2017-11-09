@@ -917,6 +917,9 @@ img {
 .o-media__body {
   flex: 1; }
 
+.site-nav input:checked ~ .trigger {
+  display: block; }
+
 .u-bg--black {
   background-color: #000; }
 
@@ -965,6 +968,12 @@ img {
 .u-bg-hover--red--sorbus:hover, .u-bg-hover--red--sorbus:active, .u-bg-hover--red--sorbus:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus, .has-hover-propagation:active .u-bg-hover--red--sorbus, .has-hover-propagation:focus .u-bg-hover--red--sorbus {
   background-color: #DC552C; }
 
+.u-bg--grey--gainsboro {
+  background-color: #e8e8e8; }
+
+.u-bg-hover--grey--gainsboro:hover, .u-bg-hover--grey--gainsboro:active, .u-bg-hover--grey--gainsboro:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro, .has-hover-propagation:active .u-bg-hover--grey--gainsboro, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro {
+  background-color: #e8e8e8; }
+
 @media (min-width: 0) {
   .u-bg--black\@xs {
     background-color: #000; }
@@ -1012,7 +1021,13 @@ img {
     background-color: #DC552C; }
 
   .u-bg-hover--red--sorbus\@xs:hover, .u-bg-hover--red--sorbus\@xs:active, .u-bg-hover--red--sorbus\@xs:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus\@xs, .has-hover-propagation:active .u-bg-hover--red--sorbus\@xs, .has-hover-propagation:focus .u-bg-hover--red--sorbus\@xs {
-    background-color: #DC552C; } }
+    background-color: #DC552C; }
+
+  .u-bg--grey--gainsboro\@xs {
+    background-color: #e8e8e8; }
+
+  .u-bg-hover--grey--gainsboro\@xs:hover, .u-bg-hover--grey--gainsboro\@xs:active, .u-bg-hover--grey--gainsboro\@xs:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro\@xs, .has-hover-propagation:active .u-bg-hover--grey--gainsboro\@xs, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro\@xs {
+    background-color: #e8e8e8; } }
 @media (min-width: 550px) {
   .u-bg--black\@sm {
     background-color: #000; }
@@ -1060,7 +1075,13 @@ img {
     background-color: #DC552C; }
 
   .u-bg-hover--red--sorbus\@sm:hover, .u-bg-hover--red--sorbus\@sm:active, .u-bg-hover--red--sorbus\@sm:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus\@sm, .has-hover-propagation:active .u-bg-hover--red--sorbus\@sm, .has-hover-propagation:focus .u-bg-hover--red--sorbus\@sm {
-    background-color: #DC552C; } }
+    background-color: #DC552C; }
+
+  .u-bg--grey--gainsboro\@sm {
+    background-color: #e8e8e8; }
+
+  .u-bg-hover--grey--gainsboro\@sm:hover, .u-bg-hover--grey--gainsboro\@sm:active, .u-bg-hover--grey--gainsboro\@sm:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro\@sm, .has-hover-propagation:active .u-bg-hover--grey--gainsboro\@sm, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro\@sm {
+    background-color: #e8e8e8; } }
 @media (min-width: 760px) {
   .u-bg--black\@md {
     background-color: #000; }
@@ -1108,7 +1129,13 @@ img {
     background-color: #DC552C; }
 
   .u-bg-hover--red--sorbus\@md:hover, .u-bg-hover--red--sorbus\@md:active, .u-bg-hover--red--sorbus\@md:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus\@md, .has-hover-propagation:active .u-bg-hover--red--sorbus\@md, .has-hover-propagation:focus .u-bg-hover--red--sorbus\@md {
-    background-color: #DC552C; } }
+    background-color: #DC552C; }
+
+  .u-bg--grey--gainsboro\@md {
+    background-color: #e8e8e8; }
+
+  .u-bg-hover--grey--gainsboro\@md:hover, .u-bg-hover--grey--gainsboro\@md:active, .u-bg-hover--grey--gainsboro\@md:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro\@md, .has-hover-propagation:active .u-bg-hover--grey--gainsboro\@md, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro\@md {
+    background-color: #e8e8e8; } }
 @media (min-width: 990px) {
   .u-bg--black\@lg {
     background-color: #000; }
@@ -1156,7 +1183,13 @@ img {
     background-color: #DC552C; }
 
   .u-bg-hover--red--sorbus\@lg:hover, .u-bg-hover--red--sorbus\@lg:active, .u-bg-hover--red--sorbus\@lg:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus\@lg, .has-hover-propagation:active .u-bg-hover--red--sorbus\@lg, .has-hover-propagation:focus .u-bg-hover--red--sorbus\@lg {
-    background-color: #DC552C; } }
+    background-color: #DC552C; }
+
+  .u-bg--grey--gainsboro\@lg {
+    background-color: #e8e8e8; }
+
+  .u-bg-hover--grey--gainsboro\@lg:hover, .u-bg-hover--grey--gainsboro\@lg:active, .u-bg-hover--grey--gainsboro\@lg:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro\@lg, .has-hover-propagation:active .u-bg-hover--grey--gainsboro\@lg, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro\@lg {
+    background-color: #e8e8e8; } }
 @media (min-width: 1200px) {
   .u-bg--black\@xl {
     background-color: #000; }
@@ -1204,7 +1237,13 @@ img {
     background-color: #DC552C; }
 
   .u-bg-hover--red--sorbus\@xl:hover, .u-bg-hover--red--sorbus\@xl:active, .u-bg-hover--red--sorbus\@xl:focus, .has-hover-propagation:hover .u-bg-hover--red--sorbus\@xl, .has-hover-propagation:active .u-bg-hover--red--sorbus\@xl, .has-hover-propagation:focus .u-bg-hover--red--sorbus\@xl {
-    background-color: #DC552C; } }
+    background-color: #DC552C; }
+
+  .u-bg--grey--gainsboro\@xl {
+    background-color: #e8e8e8; }
+
+  .u-bg-hover--grey--gainsboro\@xl:hover, .u-bg-hover--grey--gainsboro\@xl:active, .u-bg-hover--grey--gainsboro\@xl:focus, .has-hover-propagation:hover .u-bg-hover--grey--gainsboro\@xl, .has-hover-propagation:active .u-bg-hover--grey--gainsboro\@xl, .has-hover-propagation:focus .u-bg-hover--grey--gainsboro\@xl {
+    background-color: #e8e8e8; } }
 .u-bc--black {
   border-color: #000; }
 
@@ -1229,6 +1268,9 @@ img {
 .u-bc--red--sorbus {
   border-color: #DC552C; }
 
+.u-bc--grey--gainsboro {
+  border-color: #e8e8e8; }
+
 @media (min-width: 0) {
   .u-bc--black\@xs {
     border-color: #000; }
@@ -1252,7 +1294,10 @@ img {
     border-color: #F5FEFF; }
 
   .u-bc--red--sorbus\@xs {
-    border-color: #DC552C; } }
+    border-color: #DC552C; }
+
+  .u-bc--grey--gainsboro\@xs {
+    border-color: #e8e8e8; } }
 @media (min-width: 550px) {
   .u-bc--black\@sm {
     border-color: #000; }
@@ -1276,7 +1321,10 @@ img {
     border-color: #F5FEFF; }
 
   .u-bc--red--sorbus\@sm {
-    border-color: #DC552C; } }
+    border-color: #DC552C; }
+
+  .u-bc--grey--gainsboro\@sm {
+    border-color: #e8e8e8; } }
 @media (min-width: 760px) {
   .u-bc--black\@md {
     border-color: #000; }
@@ -1300,7 +1348,10 @@ img {
     border-color: #F5FEFF; }
 
   .u-bc--red--sorbus\@md {
-    border-color: #DC552C; } }
+    border-color: #DC552C; }
+
+  .u-bc--grey--gainsboro\@md {
+    border-color: #e8e8e8; } }
 @media (min-width: 990px) {
   .u-bc--black\@lg {
     border-color: #000; }
@@ -1324,7 +1375,10 @@ img {
     border-color: #F5FEFF; }
 
   .u-bc--red--sorbus\@lg {
-    border-color: #DC552C; } }
+    border-color: #DC552C; }
+
+  .u-bc--grey--gainsboro\@lg {
+    border-color: #e8e8e8; } }
 @media (min-width: 1200px) {
   .u-bc--black\@xl {
     border-color: #000; }
@@ -1348,7 +1402,10 @@ img {
     border-color: #F5FEFF; }
 
   .u-bc--red--sorbus\@xl {
-    border-color: #DC552C; } }
+    border-color: #DC552C; }
+
+  .u-bc--grey--gainsboro\@xl {
+    border-color: #e8e8e8; } }
 .u-circle {
   border-radius: 100%; }
 
@@ -2135,6 +2192,12 @@ img {
 .u-hover--red--sorbus:hover, .u-hover--red--sorbus:active, .u-hover--red--sorbus:focus, .has-hover-propagation:hover .u-hover--red--sorbus, .has-hover-propagation:active .u-hover--red--sorbus, .has-hover-propagation:focus .u-hover--red--sorbus {
   color: #DC552C; }
 
+.u-grey--gainsboro {
+  color: #e8e8e8; }
+
+.u-hover--grey--gainsboro:hover, .u-hover--grey--gainsboro:active, .u-hover--grey--gainsboro:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro, .has-hover-propagation:active .u-hover--grey--gainsboro, .has-hover-propagation:focus .u-hover--grey--gainsboro {
+  color: #e8e8e8; }
+
 @media (min-width: 0) {
   .u-black\@xs {
     color: #000; }
@@ -2182,7 +2245,13 @@ img {
     color: #DC552C; }
 
   .u-hover--red--sorbus\@xs:hover, .u-hover--red--sorbus\@xs:active, .u-hover--red--sorbus\@xs:focus, .has-hover-propagation:hover .u-hover--red--sorbus\@xs, .has-hover-propagation:active .u-hover--red--sorbus\@xs, .has-hover-propagation:focus .u-hover--red--sorbus\@xs {
-    color: #DC552C; } }
+    color: #DC552C; }
+
+  .u-grey--gainsboro\@xs {
+    color: #e8e8e8; }
+
+  .u-hover--grey--gainsboro\@xs:hover, .u-hover--grey--gainsboro\@xs:active, .u-hover--grey--gainsboro\@xs:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro\@xs, .has-hover-propagation:active .u-hover--grey--gainsboro\@xs, .has-hover-propagation:focus .u-hover--grey--gainsboro\@xs {
+    color: #e8e8e8; } }
 @media (min-width: 550px) {
   .u-black\@sm {
     color: #000; }
@@ -2230,7 +2299,13 @@ img {
     color: #DC552C; }
 
   .u-hover--red--sorbus\@sm:hover, .u-hover--red--sorbus\@sm:active, .u-hover--red--sorbus\@sm:focus, .has-hover-propagation:hover .u-hover--red--sorbus\@sm, .has-hover-propagation:active .u-hover--red--sorbus\@sm, .has-hover-propagation:focus .u-hover--red--sorbus\@sm {
-    color: #DC552C; } }
+    color: #DC552C; }
+
+  .u-grey--gainsboro\@sm {
+    color: #e8e8e8; }
+
+  .u-hover--grey--gainsboro\@sm:hover, .u-hover--grey--gainsboro\@sm:active, .u-hover--grey--gainsboro\@sm:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro\@sm, .has-hover-propagation:active .u-hover--grey--gainsboro\@sm, .has-hover-propagation:focus .u-hover--grey--gainsboro\@sm {
+    color: #e8e8e8; } }
 @media (min-width: 760px) {
   .u-black\@md {
     color: #000; }
@@ -2278,7 +2353,13 @@ img {
     color: #DC552C; }
 
   .u-hover--red--sorbus\@md:hover, .u-hover--red--sorbus\@md:active, .u-hover--red--sorbus\@md:focus, .has-hover-propagation:hover .u-hover--red--sorbus\@md, .has-hover-propagation:active .u-hover--red--sorbus\@md, .has-hover-propagation:focus .u-hover--red--sorbus\@md {
-    color: #DC552C; } }
+    color: #DC552C; }
+
+  .u-grey--gainsboro\@md {
+    color: #e8e8e8; }
+
+  .u-hover--grey--gainsboro\@md:hover, .u-hover--grey--gainsboro\@md:active, .u-hover--grey--gainsboro\@md:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro\@md, .has-hover-propagation:active .u-hover--grey--gainsboro\@md, .has-hover-propagation:focus .u-hover--grey--gainsboro\@md {
+    color: #e8e8e8; } }
 @media (min-width: 990px) {
   .u-black\@lg {
     color: #000; }
@@ -2326,7 +2407,13 @@ img {
     color: #DC552C; }
 
   .u-hover--red--sorbus\@lg:hover, .u-hover--red--sorbus\@lg:active, .u-hover--red--sorbus\@lg:focus, .has-hover-propagation:hover .u-hover--red--sorbus\@lg, .has-hover-propagation:active .u-hover--red--sorbus\@lg, .has-hover-propagation:focus .u-hover--red--sorbus\@lg {
-    color: #DC552C; } }
+    color: #DC552C; }
+
+  .u-grey--gainsboro\@lg {
+    color: #e8e8e8; }
+
+  .u-hover--grey--gainsboro\@lg:hover, .u-hover--grey--gainsboro\@lg:active, .u-hover--grey--gainsboro\@lg:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro\@lg, .has-hover-propagation:active .u-hover--grey--gainsboro\@lg, .has-hover-propagation:focus .u-hover--grey--gainsboro\@lg {
+    color: #e8e8e8; } }
 @media (min-width: 1200px) {
   .u-black\@xl {
     color: #000; }
@@ -2374,7 +2461,13 @@ img {
     color: #DC552C; }
 
   .u-hover--red--sorbus\@xl:hover, .u-hover--red--sorbus\@xl:active, .u-hover--red--sorbus\@xl:focus, .has-hover-propagation:hover .u-hover--red--sorbus\@xl, .has-hover-propagation:active .u-hover--red--sorbus\@xl, .has-hover-propagation:focus .u-hover--red--sorbus\@xl {
-    color: #DC552C; } }
+    color: #DC552C; }
+
+  .u-grey--gainsboro\@xl {
+    color: #e8e8e8; }
+
+  .u-hover--grey--gainsboro\@xl:hover, .u-hover--grey--gainsboro\@xl:active, .u-hover--grey--gainsboro\@xl:focus, .has-hover-propagation:hover .u-hover--grey--gainsboro\@xl, .has-hover-propagation:active .u-hover--grey--gainsboro\@xl, .has-hover-propagation:focus .u-hover--grey--gainsboro\@xl {
+    color: #e8e8e8; } }
 .u-pointer {
   cursor: pointer; }
 
@@ -3225,149 +3318,149 @@ img {
   .u-f--none\@xl {
     float: none; } }
 .u-size--1 {
-  font-size: 100px; }
+  font-size: 56px; }
 
 .u-size--2 {
-  font-size: 60px; }
+  font-size: 40px; }
 
 .u-size--3 {
-  font-size: 40px; }
+  font-size: 36px; }
 
 .u-size--4 {
   font-size: 32px; }
 
 .u-size--5 {
-  font-size: 22px; }
+  font-size: 24px; }
 
 .u-size--6 {
   font-size: 20px; }
 
 .u-size--7 {
-  font-size: 18px; }
+  font-size: 16px; }
 
 .u-size--8 {
-  font-size: 16px; }
+  font-size: 12px; }
 
 @media (min-width: 0) {
   .u-size--1\@xs {
-    font-size: 100px; }
+    font-size: 56px; }
 
   .u-size--2\@xs {
-    font-size: 60px; }
+    font-size: 40px; }
 
   .u-size--3\@xs {
-    font-size: 40px; }
+    font-size: 36px; }
 
   .u-size--4\@xs {
     font-size: 32px; }
 
   .u-size--5\@xs {
-    font-size: 22px; }
+    font-size: 24px; }
 
   .u-size--6\@xs {
     font-size: 20px; }
 
   .u-size--7\@xs {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .u-size--8\@xs {
-    font-size: 16px; } }
+    font-size: 12px; } }
 @media (min-width: 550px) {
   .u-size--1\@sm {
-    font-size: 100px; }
+    font-size: 56px; }
 
   .u-size--2\@sm {
-    font-size: 60px; }
+    font-size: 40px; }
 
   .u-size--3\@sm {
-    font-size: 40px; }
+    font-size: 36px; }
 
   .u-size--4\@sm {
     font-size: 32px; }
 
   .u-size--5\@sm {
-    font-size: 22px; }
+    font-size: 24px; }
 
   .u-size--6\@sm {
     font-size: 20px; }
 
   .u-size--7\@sm {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .u-size--8\@sm {
-    font-size: 16px; } }
+    font-size: 12px; } }
 @media (min-width: 760px) {
   .u-size--1\@md {
-    font-size: 100px; }
+    font-size: 56px; }
 
   .u-size--2\@md {
-    font-size: 60px; }
+    font-size: 40px; }
 
   .u-size--3\@md {
-    font-size: 40px; }
+    font-size: 36px; }
 
   .u-size--4\@md {
     font-size: 32px; }
 
   .u-size--5\@md {
-    font-size: 22px; }
+    font-size: 24px; }
 
   .u-size--6\@md {
     font-size: 20px; }
 
   .u-size--7\@md {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .u-size--8\@md {
-    font-size: 16px; } }
+    font-size: 12px; } }
 @media (min-width: 990px) {
   .u-size--1\@lg {
-    font-size: 100px; }
+    font-size: 56px; }
 
   .u-size--2\@lg {
-    font-size: 60px; }
+    font-size: 40px; }
 
   .u-size--3\@lg {
-    font-size: 40px; }
+    font-size: 36px; }
 
   .u-size--4\@lg {
     font-size: 32px; }
 
   .u-size--5\@lg {
-    font-size: 22px; }
+    font-size: 24px; }
 
   .u-size--6\@lg {
     font-size: 20px; }
 
   .u-size--7\@lg {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .u-size--8\@lg {
-    font-size: 16px; } }
+    font-size: 12px; } }
 @media (min-width: 1200px) {
   .u-size--1\@xl {
-    font-size: 100px; }
+    font-size: 56px; }
 
   .u-size--2\@xl {
-    font-size: 60px; }
+    font-size: 40px; }
 
   .u-size--3\@xl {
-    font-size: 40px; }
+    font-size: 36px; }
 
   .u-size--4\@xl {
     font-size: 32px; }
 
   .u-size--5\@xl {
-    font-size: 22px; }
+    font-size: 24px; }
 
   .u-size--6\@xl {
     font-size: 20px; }
 
   .u-size--7\@xl {
-    font-size: 18px; }
+    font-size: 16px; }
 
   .u-size--8\@xl {
-    font-size: 16px; } }
+    font-size: 12px; } }
 .u-italic {
   font-style: italic; }
 
