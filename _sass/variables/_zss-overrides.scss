@@ -1,0 +1,43 @@
+
+$zss--colors: map-merge(
+    $zss--colors,
+    (
+        blue--bunting: #30374f,
+        blue--astronaut: #404969,
+        blue--pale-turqoise: #BDE4F4,
+        blue--azure: #F5FEFF,
+        red--sorbus: #DC552C,
+        grey--gainsboro: #e8e8e8
+    )
+);
+
+$zss--spacing-scale: 0 4px 8px 16px 24px 32px 40px 48px;
+
+$zss--type-scale: 56px 40px 36px 32px 24px 20px 16px 12px;
+$zss--base-font-size: 20px;
+
+$zss--border-radius-scale: 0 4px 25px;
+$zss--border-width-scale: 0 1px 2px;
+$zss--border-colors: $zss--colors;
+
+$zss--media-margin: 32px;
+$zss--grid-columns: 12;
+$zss--grid-gutter: 32px;
+
+$zss--breakpoints: (
+    xs: 0,
+    sm: 550px,
+    md: 760px,
+    lg: 990px,
+    xl: 1200px
+);
+
+$zss--grid-max-widths: (
+    sm: 530px,
+    md: 730px,
+    lg: 960px,
+    xl: 1196px
+);
+
+$zss--border-width-scale: 0 1px;
+$zss--border-colors: $zss--colors;
